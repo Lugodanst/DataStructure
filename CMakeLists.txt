@@ -15,3 +15,6 @@ add_library(${DEP_LIB} SHARED ${LIB_SRC})
 
 add_executable(test_slist ./test/test_slist.c)
 target_link_libraries(test_slist ${DEP_LIB})
+
+add_executable(test_dlist ./test/test_dlist.c)
+target_link_libraries(test_dlist ${DEP_LIB})

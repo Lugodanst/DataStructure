@@ -5,4 +5,6 @@
 
 #define OC_DELETE(p) do{free(p); p = NULL;}while(0)
 
+#define OC_CHECK_POINTER(p) do{ if(!p) return NULL; }while(0)
+
 #endif
