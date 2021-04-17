@@ -18,3 +18,6 @@ target_link_libraries(test_slist ${DEP_LIB})
 
 add_executable(test_dlist ./test/test_dlist.c)
 target_link_libraries(test_dlist ${DEP_LIB})
+
+add_executable(test_array ./test/test_array.c)
+target_link_libraries(test_array ${DEP_LIB})
