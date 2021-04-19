@@ -75,5 +75,6 @@ int main(int argc, char *argv[])
     test_push_and_pop();
     printf("\n\n\n");
     test_insert();
+
     return 0;
 }
