@@ -25,3 +25,6 @@ target_link_libraries(test_array ${DEP_LIB})
 add_executable(test_disorder ./test/test_disorder.c)
 target_link_libraries(test_disorder ${DEP_LIB})
 
+add_executable(test_stack ./test/test_stack.c)
+target_link_libraries(test_stack ${DEP_LIB})
+
