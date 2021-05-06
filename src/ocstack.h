@@ -1,7 +1,7 @@
 #ifndef _LUG_OC_STACK_CPH
 #define _LUG_OC_STACK_CPH
 
-#include "ocmacro.h"
+#include "ocdatautils.h"
 
 typedef struct ocstack ocstack;
 typedef void(*ocstack_del)(void*);

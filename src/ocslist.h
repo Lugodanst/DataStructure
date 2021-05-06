@@ -1,6 +1,6 @@
 #ifndef __OC_SINGLE_LIST_H
 #define __OC_SINGLE_LIST_H
-#include "ocmacro.h"
+#include "ocdatautils.h"
 
 #define ocslist_get(type, node) *(type*)ocslist_topointer(node)
 

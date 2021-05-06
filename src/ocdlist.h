@@ -1,7 +1,7 @@
 #ifndef __OC_DOUBLE_LINKLIST_H
 #define __OC_DOUBLE_LINKLIST_H
 
-#include "ocmacro.h"
+#include "ocdatautils.h"
 
 typedef struct ocdlist_node ocdlist_node;
 typedef struct ocdlist ocdlist;

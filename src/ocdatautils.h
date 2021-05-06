@@ -7,4 +7,11 @@
 
 #define OC_CHECK_POINTER(p) do{ if(!p) return NULL; }while(0)
 
+OCAPI void* oc_malloc(int size);
+
+
+typedef void (*ocdelf)(void*);
+typedef void* (*occopyf)(void*);
+typedef int (*occomparef)(void*);
+
 #endif

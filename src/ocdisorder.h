@@ -1,7 +1,7 @@
 #ifndef _LUG_OC_DISORDER_ARRAY_CPH
 #define _LUG_OC_DISORDER_ARRAY_CPH
 
-#include "ocmacro.h"
+#include "ocdatautils.h"
 
 /**
  * 自定义的数据结构，跟静态链表原理相似
